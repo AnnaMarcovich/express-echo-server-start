@@ -6,14 +6,15 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon -r dotenv/config app.mjs",
-    "start": "node -r dotenv/config app.mjs"
+    "start": "nodemon -r dotenv/config app.mjs"
   },
   "author": "Yariv Gilad <yariv.gilad@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@ajar/marker": "^1.3.3",
     "dotenv": "^8.6.0",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
